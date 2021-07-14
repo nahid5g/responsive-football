@@ -25,31 +25,6 @@ header:hover {
     background: #211d5c;
     transform: scaleX(1.05);
 }
-/* nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul {
-    display: flex;
-    padding: 0;
-}
-nav ul li {
-    list-style: none;
-    padding: 0 14px;
-}
-nav a {
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-}
-#login a {
-    background: #E02C6D;
-    padding: 5px 15px;
-}
-#login .fa-sign-in-alt {
-    margin-right: 2px;
-} */
 .header-bottom {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -144,29 +119,57 @@ footer img {
     text-align: center;
 }
 .social-icons {
-    margin: 6px 0;
+    display: flex;
+    justify-content: center;
 }
-.footer-content a {
-    font-size: 16px;
-    padding: 5px 10px;
-    margin-left: 5px;
-    border-radius: 30px;
-    background: #969BAB;
-    font-size: 18px;
-    line-height: 24px;
+.social-icons p {
+    height: 40px;
+    width: 40px;
+    background-color: #95a5a6;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.social-icons i {
+    margin: 12px 0;
 }
 /* Newsletter Styles */
 .our-newsletter {
-    display: flex;
-    justify-content: center;
+    background-color: #1abc9c;
+    padding: 100px 15px;
+    color: #fff;
+    text-align: center;
 }
 .newsletter {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    justify-content: center;
+    margin: 20px auto;
+    display: table;
 }
-
+.newsletter-form i {
+    background: #f7f7f7;
+    width: 60px;
+    padding: 1px;
+    height: 42px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #9c27b0;
+}
+.newsletter .newsletter-form button {
+    background: #9c27b0;
+    color: #fff;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border:none;
+    height: 42px;
+    margin-top: 5px;
+}
+.email {
+    width: 50%;
+    height: 36px;
+    border: none;
+    padding: 3px 10px;
+    margin: 0 -4px;
+}
 /*--------------\*
     Media Queries
 \*--------------*/
