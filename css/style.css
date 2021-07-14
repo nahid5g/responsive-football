@@ -68,3 +68,59 @@ nav a {
 .half-width img {
     width: 100%;
 }
+/* Players section styles */
+#top-players {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-column-gap: 30px; */
+    grid-gap: 30px;
+}
+.player {
+    box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+    padding: 20px;
+    height: 500px;
+}
+.player img {
+    width: 100%;
+}
+.player .player-name {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.player p {
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Watch Highlights */
+.watch-highlights {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    align-items: center;
+}
+.highlights img {
+    width: 100%;
+}
+.highlights h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.highlights p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+.match-highlights {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 80px;
+}
