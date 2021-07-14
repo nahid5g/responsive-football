@@ -157,18 +157,14 @@ footer img {
 }
 /* Newsletter Styles */
 .our-newsletter {
-    height: 400px;
-    background-image: url(../images//messi.jpg);
-    background-size: cover;
-    background-position: top center;
+    display: flex;
+    justify-content: center;
 }
-.newsletter h1 {
-    font-size: 48px;
-    line-height: 58px;
-    color: white;
-}
-.latest-news {
-    color: orange;
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
 }
 
 /*--------------\*
