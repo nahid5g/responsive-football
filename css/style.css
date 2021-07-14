@@ -52,16 +52,15 @@ header:hover {
 #top-players {
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding: 45px 0;
 }
 .players {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* grid-column-gap: 30px; */
     grid-gap: 30px;
 }
 .player {
-    box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.15);
     padding: 20px;
     min-height: 500px;
 }
@@ -169,6 +168,20 @@ footer img {
     border: none;
     padding: 3px 10px;
     margin: 0 -4px;
+}
+/* Champion Celebreation */
+.champion-2021 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.champion-2021 h2 {
+    margin-bottom: ;
+}
+video {
+    width: 100%;
+    height: 90%;
+    outline: 0;
 }
 /*--------------\*
     Media Queries
