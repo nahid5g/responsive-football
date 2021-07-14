@@ -173,14 +173,10 @@ footer img {
 .champion-2021 {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     padding-bottom: 60px;
-=======
-    padding-bottom: 80px;
->>>>>>> 8ad03287ef46d8f09d111e936a413c9763b7bbd7
 }
 .champion-2021 h2 {
-    margin-bottom: ;
+    margin-bottom: 0;
 }
 video {
     width: 100%;
